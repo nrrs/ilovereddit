@@ -5,23 +5,58 @@ body.popup {
 }
 div.subreddit {
 	position: relative;
+	border-bottom: 1px solid #000;
+	margin-bottom: 12px;
 }
-header {
+div.subreddit:last-child {
+	border-bottom: 0px;
 }
 header strong {
 	text-transform: uppercase;
-}
-.url {
-	font-size: 80%;
-	position: absolute;
-	top: 3px;
-	right: 0px;
+	font-size: 110%;
 }
 li {
-	padding: 3px;
+	padding: 6px;
+	position: relative;
+	background: #FAFAFA;
 }
 li:nth-child(odd) {
-	background: #ccc;
+	background: #F2F2F2;
+}
+li a {
+	display: block;
+}
+.subreddit-url {
+	font-size: 80%;
+	position: absolute;
+	top: 1px;
+	right: 0px;
+}
+.post-link {
+	
+}
+.author {
+	float: left;
+}
+.permalink {
+	float: right;
+}
+.score {
+	display: block;
+	clear: both;
+}
+.over-18 {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0px;
+	height: 0px;
+	border-top:10px solid red;
+	border-right: 10px solid red;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+	content: "";
 }
 
 /* Options.html */
