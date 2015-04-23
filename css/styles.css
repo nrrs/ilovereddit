@@ -1,0 +1,38 @@
+/* Popup.html */
+body.popup {
+	width: 500px;
+	min-height: 300px;
+}
+div.subreddit {
+	position: relative;
+}
+header {
+}
+header strong {
+	text-transform: uppercase;
+}
+.url {
+	font-size: 80%;
+	position: absolute;
+	top: 3px;
+	right: 0px;
+}
+li {
+	padding: 3px;
+}
+li:nth-child(odd) {
+	background: #ccc;
+}
+
+/* Options.html */
+body.options {
+
+}
+
+/* Globals */
+input {
+	display: block;
+}
+ul {
+	padding: 0px;
+}
