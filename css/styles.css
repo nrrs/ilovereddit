@@ -16,12 +16,23 @@ header strong {
 	font-size: 110%;
 }
 li {
-	padding: 6px;
+	padding: 12px 12px;
 	position: relative;
 	background: #FAFAFA;
 }
+li img {
+	width: 60px;
+	min-height: 60px;
+	margin-right: 12px;
+	float: left;
+}
 li:nth-child(odd) {
 	background: #F2F2F2;
+}
+li:after {
+	display: table;
+	content: "";
+	width: 100%;
 }
 li a {
 	display: block;
@@ -70,4 +81,5 @@ input {
 }
 ul {
 	padding: 0px;
+	list-style: none;
 }
