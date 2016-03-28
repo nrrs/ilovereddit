@@ -6,7 +6,8 @@
   "author": "Norris Kwan",
   "icons": {
     "16": "favicon.png",
-    ""
+    "48": "",
+    "128": ""
   },
 
   "background": {

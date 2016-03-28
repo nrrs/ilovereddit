@@ -41,7 +41,7 @@ function generateOutput() {
 					if( thumb.indexOf('thumbs.redditmedia.com') >= 0 ) {
 						thumbnail = "<img src='" + thumb + "' />";
 					}
-					itemOutput = "<li><a href='"+url+"' title='"+title+"' target='_blank'>"+thumbnail+"</a><div><a href='"+url+"' target='_blank' class='post-link'>"+title+"</a><span class='author'><strong>Posted By: </strong>"+author+"</span><a href='"+permalink+"' title='permalink' target='_blank' class='permalink'>permalink</a><span class='"+nsfw+"'></span></div></li>";
+					itemOutput = "<li><a href='"+url+"' title='"+title+"' target='_blank'>"+thumbnail+"</a><div><a href='"+url+"' target='_blank' class='post-link'>"+title+"</a><span class='author'><strong>Posted By: </strong>"+author+"</span><a href='http://www.reddit.com/"+permalink+"' title='permalink' target='_blank' class='permalink'>permalink</a><span class='"+nsfw+"'></span></div></li>";
 
 					$('#' + subName + ' ul').append(itemOutput);
 					
