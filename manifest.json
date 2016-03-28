@@ -1,9 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "I Love Reddit Extension",
+  "name": "I Love reddit Extension",
   "version": "1.0",
   "description": "This extension takes your favorite subreddits and displays the hottest, most recent posts.",
   "author": "Norris Kwan",
+  "icons": {
+    "16": "favicon.png",
+    ""
+  },
 
   "background": {
     "persistent": false
